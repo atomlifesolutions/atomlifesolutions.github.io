@@ -1,0 +1,35 @@
+/* Basic styling for layout, fonts, colors */
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header, footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+.app-features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.app-preview {
+  display: flex;
+  justify-content: space-around; /* Evenly space out images */
+  margin-bottom: 20px;
+}
+
+.download-button {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+}
